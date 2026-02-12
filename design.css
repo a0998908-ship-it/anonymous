@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lavenderblush;
+  font-family: 'Arial', sans-serif;
+}
+#outer{
+  background-color: lavenderblush;
+   padding: 50px;
+   border-radius: 5%;
+   border:3px solid black;
+   background-image: url(https://tse1.mm.bing.net/th/id/OIP.M6eG8sP3bQSWLqn1zSQlIwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3);
+}
+#container {
+  text-align: center;
+  background: pink;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border:3px solid black;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#yesButton {
+  background-color: #ff4d6d;
+  color: white;
+}
+
+#noButton {
+  background-color: whitesmoke;
+  position: relative; /* Allows it to move within the container */
+  border:3px solid black;
+}
+#cat-img{
+  height: 400px;
+  width: 300px;
+}
